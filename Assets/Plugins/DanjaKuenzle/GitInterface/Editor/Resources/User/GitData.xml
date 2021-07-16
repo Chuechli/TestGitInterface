@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerializedData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UserName>Danja Künzle</UserName>
+  <Email>Chuechli@users.noreply.github.com</Email>
+  <RepoUrl>https://github.com/Chuechli/TestGitInterface.git</RepoUrl>
+  <GitInstallFolder>C:/Program Files/Git/cmd</GitInstallFolder>
+  <ChosenDiffTool>winmerge</ChosenDiffTool>
+  <GitDiffOptions>
+    <string>vimdiff</string>
+    <string>vimdiff1</string>
+    <string>vimdiff2</string>
+    <string>vimdiff3</string>
+    <string>winmerge</string>
+  </GitDiffOptions>
+</SerializedData>

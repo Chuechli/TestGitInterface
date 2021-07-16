@@ -1,0 +1,64 @@
+-- 1.0 --
+- Created/Updated ReadMe File and Versions File
+- final testing
+____________________________________
+
+-- 0.9 --
+- Created 'About' Tab
+- Added core information such as version, email, creator
+- Added uneditable TextAreas for Read Me File and Versions File
+____________________________________
+
+-- 0.8 --
+- Loading of preinstalled Difference Tool only if reload is triggered manually (button added) or Git User Data (settings) have not been saved yet -> as this git cmd takes a lot of time
+- Added 'Git Version' View in 'Settings' Tab where the user can check the Git version and update Git (buttons added)
+- Split setting of Git Settings (email, name..) and set up of repository into 2 separate clicks (added 1 separate button)
+____________________________________
+
+-- 0.7 --
+- Added Choice of Difference Tool in 'Settings' Tab
+____________________________________
+
+-- 0.6 --
+- Resolve Bugs for:
+	-> Change View Tree: Listing of files was incorrect (sorting)
+	-> Listing of multi line commit description was not correctly displayed in 'History' Tab
+- Change Folder structure
+- Remove Debug Logs
+- Add conditional adding of .gitIgnore File when setting up repository in 'Settings' Tab
+____________________________________
+
+-- 0.5 --
+- Created 'Branches' Tab
+- Added simple Tree View for local branches and Remote branches
+- Add information & asterix to indicate which local branch is the current branch
+____________________________________
+
+-- 0.4 --
+- Created 'History' Tab
+- Added simplified git log command for listing of each commit with summary, description, Timestamp and user name
+____________________________________
+
+-- 0.3 --
+- Created 'Initialization' Tab
+- Added Push & Pull as button options
+____________________________________
+
+-- 0.2 --
+- Created 'Changes' Tab
+- Added Tree View for all changed Files & added Buttons "All", "None", "Expand All" and "Collapse All" for easier Tree View interaction
+- Added Commit Summary and Description
+- Added "Reload Changes" Button to manually reload changes
+- Added "Selected Files" count label & "Changed Files" count label as information
+- Added "Compare File" button to compare "Modified" files.
+____________________________________
+
+-- 0.1 --
+- Created 'Settings' Tab
+- Set up git connection
+- Added git installation path validation
+- Added setting of git configurations (git global-config -> name, email)
+- Added setting of git remote repository
+- Added validation of user input for 'Settngs' tab
+- Added XML serialization of user settings ("GitData.xml")
+____________________________________

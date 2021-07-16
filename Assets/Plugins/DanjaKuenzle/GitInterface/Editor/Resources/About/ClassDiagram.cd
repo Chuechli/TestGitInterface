@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GitInterface.PluginStates">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\PluginStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.MenuItems">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\MenuItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.HistoryRecord">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAgAAAAoAAAAIAAAAAAAAABAAAAAQAAgAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\HistoryRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.GitInterfaceWindow">
+    <Position X="1" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAnAAAaAJAggAAgpgwBBhJAAAgCBASEAAMI6AI=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\GitInterfaceWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.GitData">
+    <Position X="9.75" Y="4.25" Width="2" />
+    <NestedTypes>
+      <Class Name="GitInterface.GitData.SerializedData" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\GitData.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAQABAAAEAQAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\GitData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.BranchRecord">
+    <Position X="8" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GitInterface.BranchRecord.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\BranchRecord.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACgAAAAIAAAAAAAAAAAAAAAAAABAIAAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\BranchRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.StringUtility">
+    <Position X="6" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQAAAAAAAAAAgAAAAAAAAAAAAAAQBAAAAgAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\Utility\StringUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TextConstants">
+    <Position X="3.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>oAEgIAAAIAAAAAAAACAQAACgAAgIAAAEEAAhAQAAAEg=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\Utility\TextConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.ValidatorUtility">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\Utility\ValidatorUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.BranchesTreeView">
+    <Position X="7.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\BranchesTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.ChangeRecord">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GitInterface.ChangeRecord.State" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangeRecord.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAEhAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangeRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.ChangesTreeElement">
+    <Position X="6.25" Y="11.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAIAAAACAAAAAAAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangesTreeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.ChangesTreeView">
+    <Position X="5.5" Y="14.25" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="GitInterface.ChangesTreeView.Columns" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangesTreeView.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgAgAAAABAAAAAAEAAAAAAAAAQIAAAgABAAAI=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangesTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeViewItem&lt;T&gt;">
+    <Position X="3.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangesTreeViewWithTreeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeViewWithTreeModel&lt;T&gt;">
+    <Position X="0.75" Y="12.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ABEAIAAgBACACAgoAAEQAQAQAEAAABAAAAACAEAoAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\ChangesTreeViewWithTreeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeElement">
+    <Position X="3.75" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAARAAAAAAAAAAAAEIgIAAAAEKAAAAgA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeElementUtility">
+    <Position X="0.75" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAABAAAAAAACAAAAAAAEAAAAAUAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeElementUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeElementUtilityTests">
+    <Position X="9.25" Y="9.5" Width="3.5" />
+    <NestedTypes>
+      <Class Name="GitInterface.TreeElementUtilityTests.TestElement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeElementUtility.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAAACAAAAAAAAACA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeElementUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeHelper">
+    <Position X="8.5" Y="14.25" Width="2.25" />
+    <NestedTypes>
+      <Class Name="GitInterface.TreeHelper.MultiColumnHeader" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeHelper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AoAAAAAIEAAAAAIAAAAAABAAAgAAAAAAIAAAIAIAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeModel&lt;T&gt;">
+    <Position X="11" Y="11.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEBEAABABAgDIAgAQAAgAAIABAAABADAAIgAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GitInterface.TreeModelTests">
+    <Position X="6.25" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Plugins\DanjaKuenzle\GitInterface\Editor\TreeView\TreeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
